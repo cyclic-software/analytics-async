@@ -1,6 +1,6 @@
 {
   "name": "analytics-async",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The hassle-free way to integrate analytics into any node application w/o dropping API calls.",
   "main": "index.mjs",
   "scripts": {
