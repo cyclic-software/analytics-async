@@ -2,8 +2,8 @@ import axios from 'axios'
 import { v4 as uuid } from 'uuid'
 import md5 from 'md5'
 
-const LIBRARY_VERSION = '0.0.1'
-const LIBRARY_NAME = 'cyclic-segment'
+const LIBRARY_VERSION = process.env.npm_package_version || 'unknown'
+const LIBRARY_NAME = process.env.npm_package_name || 'analytics-async'
 
 export async function track(msg) {
   return call('track', msg)
