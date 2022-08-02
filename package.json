@@ -1,16 +1,33 @@
 {
   "name": "analytics-async",
   "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
+  "description": "The hassle-free way to integrate analytics into any node application w/o dropping API calls.",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Cyclic Software",
+  "author": {
+    "name": "Cyclic Software",
+    "url": "https://www.cyclic.sh"
+  },
+  "contributors": [
+    "Kam Lasater (https://github.com/seekayel)"
+  ],
+  "homepage": "https://github.com/cyclic-software/analytics-async",
+  "repository": "github:cyclic-software/analytics-async",
+  "keywords": [
+    "segment",
+    "segmentio",
+    "analytics",
+    "analytics-node",
+    "analytics-async",
+    "serverless",
+    "cyclic"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
-    "md5": "^2.3.0"
+    "md5": "^2.3.0",
+    "uuid": "^8.3.2"
   }
 }
