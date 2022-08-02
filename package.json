@@ -1,0 +1,16 @@
+{
+  "name": "analytics-async",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cyclic Software",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "md5": "^2.3.0"
+  }
+}
