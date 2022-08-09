@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "exports": {
-    "import": "./main.js",
-    "require": "./main.cjs"
+    "import": "./index.js",
+    "require": "./index.cjs"
   },
   "scripts": {
     "start": "node index.mjs",
