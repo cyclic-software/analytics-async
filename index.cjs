@@ -5,11 +5,11 @@ const md5 = require('md5')
 const LIBRARY_VERSION = process.env.npm_package_version || 'unknown'
 const LIBRARY_NAME = process.env.npm_package_name || 'analytics-async'
 
-export async function track(msg) {
+module.exports.track = async function(msg) {
   return call('track', msg)
 }
 
-export async function identify(msg) {
+module.exports.identify = async function(msg) {
   return call('identify', msg)
 }
 
