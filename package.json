@@ -2,7 +2,12 @@
   "name": "analytics-async",
   "version": "0.0.4",
   "description": "The hassle-free way to integrate analytics into any node application w/o dropping API calls.",
-  "main": "index.mjs",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "import": "./main.js",
+    "require": "./main.cjs"
+  },
   "scripts": {
     "start": "node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
